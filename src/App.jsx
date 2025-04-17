@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Home from './components/home/Home'
 import About from './components/about/About'
+import Faq from './components/faq/Faq'
 
 
 function App() {
@@ -8,8 +9,9 @@ function App() {
 
   return (
     <>
-      <Home/>
-      <About/>
+      <Home />
+      <About />
+      <Faq />
     </>
   )
 }
