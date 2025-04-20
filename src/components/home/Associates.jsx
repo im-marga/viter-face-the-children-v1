@@ -2,8 +2,8 @@ import React from 'react';
 
 const Associates = () => {
   return (
-    <div className="mx-auto max-w-[1300px] w-full mt-24 py-10 px-4">
-      <div className="container">
+    <div className="mx-auto  w-full mt-24 py-10 px-4">
+      <div className="container mx-auto max-w-7xl justify-between items-center">
         <div className="text-center mb-8">
           <small className='uppercase tracking-wider text-[rgb(252,152,39)]'>Trusted Affiliates</small>
           <h2 className='leading-tight font-semibold text-3xl text-blue-400 mb-4'>Our Advocacy Associates</h2>

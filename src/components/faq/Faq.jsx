@@ -2,6 +2,7 @@ import React from 'react'
 import Questions from './Questions'
 import Footer from './Footer'
 import Form from './Form'
+import Gift from './Gift'
 
 
 const Faq = () => {
@@ -9,6 +10,7 @@ const Faq = () => {
     <>
     <Questions/>
     <Form/>
+    <Gift/>
     <Footer/>
     </>
   )

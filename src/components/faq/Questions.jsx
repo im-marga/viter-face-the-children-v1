@@ -13,32 +13,32 @@ const Questions = () => {
     {
       id: 2,
       question: "How can you make sure our payment is secure?",
-      answer: "Your payment is processed using secure methods to ensure safety."
+      answer: "Our online donation transaction is a secure SSL encrypted payment using Stripe payment processor with the best-in-class security tools and practices to maintain a high level of security."
     },
     {
       id: 3,
       question: "Can I update my card number using your website?",
-      answer: "Yes, you can update your card number in your account settings."
+      answer: "Yes. You can change it on your account settings. Login to your donor console"
     },
     {
       id: 4,
       question: "Will I receive personal updates from FTC and the child I pledge to on a regular basis?",
-      answer: "Yes, you will receive regular updates."
+      answer: "Yes, you will receive regular updates about the progress and developments of our program. Additionally, from time to time you will receive communications directly from the child you sponsor."
     },
     {
       id: 5,
       question: "Can I make a pledge to more than one FTC Child?",
-      answer: "Yes, you can make pledges to multiple children."
+      answer: "Yes. We welcome your pledges to as many children as possible!"
     },
     {
       id: 6,
       question: "Can I make a Partner Pledge for the entire monthly care of a child in the FTC program?",
-      answer: "Yes, you can make a Partner Pledge for the child."
+      answer: "Yes. But the full-care sponsorship of a child in our program is limited to $200 monthly. Therefore, if a child has current sponsorship pledges, the website will allow only the remaining balance necessary for full-care coverage."
     },
     {
       id: 7,
       question: "How much does an FTC Child Partner Pledge Cost?",
-      answer: "The cost can vary depending on the chosen program."
+      answer: "You can partner with us by sponsoring a child for as little as $20 monthly. You can also select higher sponsorship amounts if the child has remaining full-care needs. Please see the options presented for a selected child on the sponsorship page."
     }
   ];
 
@@ -58,7 +58,7 @@ const Questions = () => {
           </h1>
         </div>
         {questions.map(({ id, question, answer }) => (
-          <div key={id} className="grid grid-col-1 md:grid-cols-2 gap-10 md:justify-between items-center">
+          <div key={id} className="grid grid-col-1 md:grid-cols-2 gap-10 md:justify-between">
             <div>
               <h2 onClick={() => handleQuestionClick(id)} className={`flex justify-between items-center cursor-pointer text-lg text-gray-600 mt-2 hover:bg-blue-400 hover:text-white rounded-lg p-2 mb-2  ${activeQuestionId === id ? 'border rounded-lg border-blue-500 text-blue-500' : 'border-gray-300'}`}>
                 {`${id.toString().padStart(2, '0')}  ${question}`} <FaChevronRight />

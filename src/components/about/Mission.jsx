@@ -2,13 +2,13 @@ import React from 'react'
 
 const Mission = () => {
   return (
-    <div className="mx-auto max-w-[1300px] w-full mt-24 px-4">
-    <div className="container">
+    <div className="mx-auto w-full mt-24 px-4">
+    <div className="container mx-auto max-w-7xl flex justify-between items-center">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         <div className="mb-6 md:mb-0">
           <img src="img/about-mission.webp" alt="About Us" />
         </div>
-        <div className="block-article max-w-[500px]">
+        <div className="block-article">
           <small className='uppercase tracking-wider text-[rgb(252,152,39)]'>Mission</small>
           <h2 className='leading-tight font-semibold text-3xl text-blue-400 mb-4'>Transforming Dreams into Reality</h2>
           <p className='mb-7 text-gray-700'>
